@@ -1,3 +1,4 @@
+//src/routes/productos.router.js
 const express = require("express");
 //creo instancia de un router
 const router = express.Router();

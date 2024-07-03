@@ -1,3 +1,4 @@
+//src/routes/authRoutes.js
 const express = require("express");
 const router = express.Router();
 
@@ -12,7 +13,8 @@ router.post('/login', controller.login);
 
 //Ruta protegida para probar autenticación
 router.get("/protected",authMiddleware,(req,res) => {
-    res.status(200).send(`Hola User ${req.userId}`);
+    console.log(req.body);
+    res.status(200).send(`Hola User ${req.body.usuario}`);
 });
 
 

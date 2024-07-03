@@ -1,4 +1,4 @@
-//moviesController.js
+//src/controllers/moviesController.js
 //requerimos la conexión a la base de datos.
 const db = require("../config/db");
 

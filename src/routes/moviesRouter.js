@@ -1,4 +1,4 @@
-//moviesRouter.js
+//src/routes/moviesRouter.js
 const express = require('express');
 const router = express.Router();
 
